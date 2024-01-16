@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "390223854825",
+    "project_id": "audio-book-flutter",
+    "storage_bucket": "audio-book-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390223854825:android:e398403a984e08fb058478",
+        "android_client_info": {
+          "package_name": "uz.xushnudbek.audio_book_flutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4CabLCpsbPBIUghxRbQzuAERgWGn4_7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,1 @@
+part of 'search_bloc.dart';@immutableabstract class SearchState {}class SearchInitial extends SearchState {}class BookSearchByTitleState extends SearchState {  final List<BookData> books;  BookSearchByTitleState(this.books);}class BookToPlayState extends SearchState {  final String id;  BookToPlayState(this.id);}

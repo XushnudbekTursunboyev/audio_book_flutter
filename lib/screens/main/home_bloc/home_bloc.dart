@@ -1,0 +1,1 @@
+import 'dart:math';import 'package:bloc/bloc.dart';import 'package:meta/meta.dart';part 'home_event.dart';part 'home_state.dart';class HomeBloc extends Bloc<HomeEvent, HomeState> {  HomeBloc() : super(HomeInitial()) {    on<BookToPlayEvent>((event, emit) {      emit(BookToPlayState(Random.secure().nextInt(5) + 1));    });  }}

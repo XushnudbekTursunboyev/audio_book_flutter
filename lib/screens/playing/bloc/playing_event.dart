@@ -1,0 +1,1 @@
+part of 'playing_bloc.dart';@immutableabstract class PlayingEvent {}class GetBookByIdEvent extends PlayingEvent {  final String id;  GetBookByIdEvent(this.id);}class OpenBookFileEvent extends PlayingEvent {  final String url;  OpenBookFileEvent(this.url);}

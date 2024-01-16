@@ -1,0 +1,1 @@
+part of 'search_bloc.dart';@immutableabstract class SearchEvent {}class BookSearchByTitleEvent extends SearchEvent {  final String title;  BookSearchByTitleEvent(this.title);}class BookToPlayEvent extends SearchEvent {  final String id;  BookToPlayEvent(this.id);}

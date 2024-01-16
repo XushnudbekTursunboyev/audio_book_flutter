@@ -1,0 +1,1 @@
+part of 'home_bloc.dart';@immutableabstract class HomeState {}class HomeInitial extends HomeState {}class BookToPlayState extends HomeState {  final int id;  BookToPlayState(this.id);}

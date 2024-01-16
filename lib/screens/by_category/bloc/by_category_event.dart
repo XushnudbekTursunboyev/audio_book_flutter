@@ -1,0 +1,1 @@
+part of 'by_category_bloc.dart';@immutableabstract class ByCategoryEvent {}class GetBooksByCategoryEvent extends ByCategoryEvent {  final String category;  GetBooksByCategoryEvent(this.category);}class BookToPlayEvent extends ByCategoryEvent {  final String id;  BookToPlayEvent(this.id);}

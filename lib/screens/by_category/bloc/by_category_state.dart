@@ -1,0 +1,1 @@
+part of 'by_category_bloc.dart';@immutableabstract class ByCategoryState {}class ByCategoryInitial extends ByCategoryState {}class GetBooksByCategoryState extends ByCategoryState {  final List<BookData> books;  GetBooksByCategoryState(this.books);}class BookToPlayState extends ByCategoryState {  final String id;  BookToPlayState(this.id);}
